@@ -1,0 +1,111 @@
+:root {
+    --bg-color: #f8fafc; /* Off-white */
+    --text-primary: #334155; /* Slate gelap */
+    --accent-color: #3b82f6; /* Biru lembut */
+    --border-color: #e2e8f0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin: 20px;
+}
+
+.screen { display: none; }
+.screen.active { display: block; }
+.hidden { display: none !important; }
+
+h1, h2, h3 { text-align: center; }
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Gaya Tombol Dasar */
+button {
+    font-family: 'Inter', sans-serif;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    color: white;
+}
+.btn-primary:hover { background-color: #2563eb; }
+
+.btn-secondary {
+    background-color: var(--text-primary);
+    color: white;
+}
+.btn-secondary:hover { background-color: #1e293b; }
+
+.btn-nav {
+    background-color: #e2e8f0;
+    color: var(--text-primary);
+}
+.btn-nav:hover { background-color: #cbd5e1; }
+
+/* Area Kuis */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.question-container { margin-bottom: 30px; }
+#question-text { font-size: 18px; font-weight: 600; margin-bottom: 20px;}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-btn {
+    text-align: left;
+    background: white;
+    border: 2px solid var(--border-color);
+    padding: 15px;
+}
+.option-btn:hover { border-color: var(--accent-color); }
+.option-btn.selected {
+    background-color: #eff6ff;
+    border-color: var(--accent-color);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Area Hasil & Evaluasi */
+.score-display { text-align: center; margin: 30px 0; }
+#final-score { font-size: 48px; color: var(--accent-color); }

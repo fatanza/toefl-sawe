@@ -2,34 +2,6 @@
   {
     "id": "TFL-M-01",
     "type": "structure",
-    "question_text": "The North Pole ________ a latitude of 90 degrees north.",
-    "options": [
-      {"label": "A", "text": "it has"},
-      {"label": "B", "text": "is having"},
-      {"label": "C", "text": "which is"},
-      {"label": "D", "text": "has"}
-    ],
-    "answer_key": "D",
-    "explanation": "Kalimat ini membutuhkan kata kerja utama (main verb). Pilihan D 'has' adalah kata kerja tunggal yang tepat untuk subjek 'The North Pole'. Pilihan A salah karena membuat double subject (it).",
-    "syllabus_tag": "Subject-Verb Agreement"
-  },
-  {
-    "id": "TFL-M-02",
-    "type": "written_expression",
-    "question_text": "The [A] healthy [B] of the city's [C] economy is [D] dependent on tourism.",
-    "options": [
-      {"label": "A", "text": "healthy"},
-      {"label": "B", "text": "of"},
-      {"label": "C", "text": "economy"},
-      {"label": "D", "text": "dependent"}
-    ],
-    "answer_key": "A",
-    "explanation": "Posisi setelah artikel 'The' dan sebelum kata depan 'of' memerlukan kata benda (noun). 'Healthy' adalah kata sifat (adjective), seharusnya diganti menjadi 'Health' (kata benda).",
-    "syllabus_tag": "Word Form"
-  },
-  {
-    "id": "TFL-M-03",
-    "type": "structure",
     "question_text": "________ a strong background in finance, the new CEO plans to restructure the company's debt.",
     "options": [
       {"label": "A", "text": "Has"},
@@ -38,7 +10,203 @@
       {"label": "D", "text": "To have"}
     ],
     "answer_key": "B",
-    "explanation": "Kalimat ini sudah memiliki subjek utama (the new CEO) dan kata kerja utama (plans). Frasa di awal yang dipisahkan koma membutuhkan Present Participle (V-ing) sebagai penjelas aktif.",
+    "explanation": "Kalimat sudah memiliki subjek dan verb utama (the new CEO plans). Frasa di awal kalimat yang dipisahkan koma membutuhkan Present Participle (V-ing) sebagai penjelas aktif.",
     "syllabus_tag": "Participles"
+  },
+  {
+    "id": "TFL-M-02",
+    "type": "structure",
+    "question_text": "An expert in seismology, Dr. Smith ________ that earthquakes cannot yet be predicted with absolute certainty.",
+    "options": [
+      {"label": "A", "text": "believing"},
+      {"label": "B", "text": "to believe"},
+      {"label": "C", "text": "believes"},
+      {"label": "D", "text": "she believes"}
+    ],
+    "answer_key": "C",
+    "explanation": "Frasa 'An expert in seismology' adalah appositive (keterangan tambahan). Subjek utama adalah Dr. Smith. Kalimat ini kekurangan kata kerja utama tunggal (singular verb), sehingga 'believes' adalah jawaban yang tepat.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "TFL-M-03",
+    "type": "structure",
+    "question_text": "Rarely ________ such a spectacular display of the northern lights in this part of the country.",
+    "options": [
+      {"label": "A", "text": "do scientists see"},
+      {"label": "B", "text": "scientists see"},
+      {"label": "C", "text": "see scientists"},
+      {"label": "D", "text": "scientists do see"}
+    ],
+    "answer_key": "A",
+    "explanation": "Jika kalimat diawali dengan kata keterangan negatif (seperti rarely, never, seldom), susunan subjek dan kata kerjanya harus diinversi (dibalik menjadi Auxiliary + Subject + Verb).",
+    "syllabus_tag": "Inverted Subjects and Verbs"
+  },
+  {
+    "id": "TFL-M-04",
+    "type": "structure",
+    "question_text": "The bridge, ________ in 1937, remains one of the most iconic landmarks in the city.",
+    "options": [
+      {"label": "A", "text": "was completed"},
+      {"label": "B", "text": "which completed"},
+      {"label": "C", "text": "completed"},
+      {"label": "D", "text": "it was completed"}
+    ],
+    "answer_key": "C",
+    "explanation": "Ini adalah bentuk Reduced Adjective Clause dari 'which was completed'. Karena jembatan tersebut 'diselesaikan' (pasif), maka kita menggunakan Past Participle (V3).",
+    "syllabus_tag": "Reduced Clauses"
+  },
+  {
+    "id": "TFL-M-05",
+    "type": "structure",
+    "question_text": "________ the committee members could not agree on a final budget, the meeting was postponed.",
+    "options": [
+      {"label": "A", "text": "Because"},
+      {"label": "B", "text": "Despite"},
+      {"label": "C", "text": "Therefore"},
+      {"label": "D", "text": "Due to"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kalimat ini terdiri dari dua klausa utuh (Subject+Verb). Kita membutuhkan connector (penghubung) yang tepat. 'Because' menghubungkan klausa alasan. 'Despite' dan 'Due to' harus diikuti noun phrase, bukan klausa.",
+    "syllabus_tag": "Connectors / Clauses"
+  },
+  {
+    "id": "TFL-M-06",
+    "type": "written_expression",
+    "question_text": "The manager requested that all employees [A] arrive on time, [B] attend the meeting, and [C] working collaboratively on the [D] new project.",
+    "options": [
+      {"label": "A", "text": "arrive"},
+      {"label": "B", "text": "attend"},
+      {"label": "C", "text": "working"},
+      {"label": "D", "text": "new"}
+    ],
+    "answer_key": "C",
+    "explanation": "Elemen-elemen yang dihubungkan dengan 'and' harus paralel. Karena sebelumnya menggunakan Verb dasar (arrive, attend), maka elemen ketiga juga harus Verb dasar (work), bukan working.",
+    "syllabus_tag": "Parallel Structure"
+  },
+  {
+    "id": "TFL-M-07",
+    "type": "written_expression",
+    "question_text": "The [A] healthy of the city's [B] economy is [C] largely dependent [D] on the tourism industry.",
+    "options": [
+      {"label": "A", "text": "healthy"},
+      {"label": "B", "text": "economy"},
+      {"label": "C", "text": "largely"},
+      {"label": "D", "text": "on"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kata 'healthy' adalah Adjective (kata sifat). Posisinya setelah artikel 'The' dan sebelum preposisi 'of' mengharuskannya menjadi Noun (kata benda). Seharusnya 'health'.",
+    "syllabus_tag": "Word Forms"
+  },
+  {
+    "id": "TFL-M-08",
+    "type": "written_expression",
+    "question_text": "Many [A] researchers believe that [B] the newly discovered species is [C] more older than any other dinosaur [D] found in the region.",
+    "options": [
+      {"label": "A", "text": "researchers"},
+      {"label": "B", "text": "the newly"},
+      {"label": "C", "text": "more older"},
+      {"label": "D", "text": "found"}
+    ],
+    "answer_key": "C",
+    "explanation": "Bentuk perbandingan untuk kata sifat satu suku kata (old) adalah dengan menambahkan akhiran -er (older). Menambahkan kata 'more' di depannya (more older) adalah kesalahan grammar berganda (double comparative).",
+    "syllabus_tag": "Comparatives & Superlatives"
+  },
+  {
+    "id": "TFL-M-09",
+    "type": "written_expression",
+    "question_text": "Each of the [A] students in the advanced chemistry class [B] must submit [C] their final assignment before [D] Friday.",
+    "options": [
+      {"label": "A", "text": "students"},
+      {"label": "B", "text": "must submit"},
+      {"label": "C", "text": "their"},
+      {"label": "D", "text": "Friday"}
+    ],
+    "answer_key": "C",
+    "explanation": "Subjek kalimat ini adalah 'Each', yang secara gramatikal selalu dianggap tunggal (singular). Oleh karena itu, kata ganti kepemilikannya tidak boleh jamak (their), melainkan harus tunggal (his or her).",
+    "syllabus_tag": "Pronouns"
+  },
+  {
+    "id": "TFL-M-10",
+    "type": "written_expression",
+    "question_text": "The ancient manuscript, which [A] discovered in a cave last year, [B] contains valuable [C] information about [D] early civilizations.",
+    "options": [
+      {"label": "A", "text": "discovered"},
+      {"label": "B", "text": "contains"},
+      {"label": "C", "text": "information"},
+      {"label": "D", "text": "early"}
+    ],
+    "answer_key": "A",
+    "explanation": "Manuskrip tersebut 'ditemukan', bukan 'menemukan'. Oleh karena itu, klausa tersebut harus menggunakan bentuk pasif (Passive Voice). Seharusnya 'which was discovered'.",
+    "syllabus_tag": "Passive Voice"
+  },
+  {
+    "id": "TFL-M-11",
+    "type": "written_expression",
+    "question_text": "Despite [A] of the heavy rain, [B] the outdoor concert [C] continued as scheduled without [D] any major interruptions.",
+    "options": [
+      {"label": "A", "text": "of"},
+      {"label": "B", "text": "the"},
+      {"label": "C", "text": "continued"},
+      {"label": "D", "text": "any"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kata 'Despite' tidak pernah diikuti oleh preposisi 'of'. Jika ingin menggunakan 'of', gunakan frasa 'In spite of'.",
+    "syllabus_tag": "Prepositions"
+  },
+  {
+    "id": "TFL-M-12",
+    "type": "written_expression",
+    "question_text": "The museum exhibits [A] a large [B] amount of historical [C] artifacts from the [D] Roman Empire.",
+    "options": [
+      {"label": "A", "text": "a large"},
+      {"label": "B", "text": "amount of"},
+      {"label": "C", "text": "artifacts"},
+      {"label": "D", "text": "Roman Empire"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata 'artifacts' adalah kata benda yang dapat dihitung (countable noun). Frasa 'amount of' hanya digunakan untuk uncountable noun. Seharusnya menggunakan 'number of'.",
+    "syllabus_tag": "Nouns (Countable/Uncountable)"
+  },
+  {
+    "id": "TFL-M-13",
+    "type": "written_expression",
+    "question_text": "After conducting [A] several experiments, the scientist published [B] an [C] unique article in the [D] international journal.",
+    "options": [
+      {"label": "A", "text": "several experiments"},
+      {"label": "B", "text": "an"},
+      {"label": "C", "text": "unique"},
+      {"label": "D", "text": "international journal"}
+    ],
+    "answer_key": "B",
+    "explanation": "Meskipun kata 'unique' diawali huruf vokal 'u', cara pelafalannya diawali bunyi konsonan 'y' (yu-neek). Oleh karena itu, artikel yang tepat adalah 'a', bukan 'an'.",
+    "syllabus_tag": "Articles"
+  },
+  {
+    "id": "TFL-M-14",
+    "type": "written_expression",
+    "question_text": "The [A] results of the recent survey [B] indicates that [C] public opinion [D] has shifted significantly.",
+    "options": [
+      {"label": "A", "text": "results"},
+      {"label": "B", "text": "indicates"},
+      {"label": "C", "text": "public opinion"},
+      {"label": "D", "text": "has shifted"}
+    ],
+    "answer_key": "B",
+    "explanation": "Subjek kalimat adalah 'results' (jamak). Oleh karena itu, kata kerja utamanya juga harus berbentuk jamak (tanpa tambahan -s/-es). Seharusnya 'indicate'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "TFL-M-15",
+    "type": "written_expression",
+    "question_text": "The [A] committee is planning to [B] return back to the [C] original proposal after [D] reviewing all the alternatives.",
+    "options": [
+      {"label": "A", "text": "committee"},
+      {"label": "B", "text": "return back"},
+      {"label": "C", "text": "original"},
+      {"label": "D", "text": "reviewing"}
+    ],
+    "answer_key": "B",
+    "explanation": "Ini adalah kesalahan redundancy (pengulangan makna yang tidak perlu). Kata 'return' sudah bermakna 'go back', sehingga kata 'back' harus dihapus.",
+    "syllabus_tag": "Redundancy"
   }
 ]

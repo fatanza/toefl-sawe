@@ -1,3 +1,44 @@
 [
-  
+  {
+    "id": "TFL-M-01",
+    "type": "structure",
+    "question_text": "The North Pole ________ a latitude of 90 degrees north.",
+    "options": [
+      {"label": "A", "text": "it has"},
+      {"label": "B", "text": "is having"},
+      {"label": "C", "text": "which is"},
+      {"label": "D", "text": "has"}
+    ],
+    "answer_key": "D",
+    "explanation": "Kalimat ini membutuhkan kata kerja utama (main verb). Pilihan D 'has' adalah kata kerja tunggal yang tepat untuk subjek 'The North Pole'. Pilihan A salah karena membuat double subject (it).",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "TFL-M-02",
+    "type": "written_expression",
+    "question_text": "The [A] healthy [B] of the city's [C] economy is [D] dependent on tourism.",
+    "options": [
+      {"label": "A", "text": "healthy"},
+      {"label": "B", "text": "of"},
+      {"label": "C", "text": "economy"},
+      {"label": "D", "text": "dependent"}
+    ],
+    "answer_key": "A",
+    "explanation": "Posisi setelah artikel 'The' dan sebelum kata depan 'of' memerlukan kata benda (noun). 'Healthy' adalah kata sifat (adjective), seharusnya diganti menjadi 'Health' (kata benda).",
+    "syllabus_tag": "Word Form"
+  },
+  {
+    "id": "TFL-M-03",
+    "type": "structure",
+    "question_text": "________ a strong background in finance, the new CEO plans to restructure the company's debt.",
+    "options": [
+      {"label": "A", "text": "Has"},
+      {"label": "B", "text": "Having"},
+      {"label": "C", "text": "He has"},
+      {"label": "D", "text": "To have"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kalimat ini sudah memiliki subjek utama (the new CEO) dan kata kerja utama (plans). Frasa di awal yang dipisahkan koma membutuhkan Present Participle (V-ing) sebagai penjelas aktif.",
+    "syllabus_tag": "Participles"
+  }
 ]

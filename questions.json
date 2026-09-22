@@ -838,5 +838,285 @@
     "answer_key": "C",
     "explanation": "Ini adalah Noun Clause yang bertindak sebagai objek (Embedded Question). Susunannya tidak boleh diinversi seperti kalimat tanya biasa, melainkan harus (Question Word + Subject + Verb). Seharusnya 'where the nearest train station was'.",
     "syllabus_tag": "Noun Clauses"
+  },
+  {
+    "id": "Q61",
+    "type": "structure",
+    "question_text": "The effects of the medication ________ to vary significantly from patient to patient.",
+    "options": [
+      {"label": "A", "text": "appearing"},
+      {"label": "B", "text": "appears"},
+      {"label": "C", "text": "appear"},
+      {"label": "D", "text": "is appearing"}
+    ],
+    "answer_key": "C",
+    "explanation": "Subjek kalimat adalah 'The effects' yang berbentuk jamak (plural). Oleh karena itu, kata kerja utamanya juga harus berbentuk jamak tanpa penambahan -s, yaitu 'appear'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q62",
+    "type": "structure",
+    "question_text": "________ by the sudden noise, the flock of birds took flight immediately.",
+    "options": [
+      {"label": "A", "text": "Frightened"},
+      {"label": "B", "text": "Frightening"},
+      {"label": "C", "text": "To frighten"},
+      {"label": "D", "text": "Frighten"}
+    ],
+    "answer_key": "A",
+    "explanation": "Frasa Participle di awal kalimat berfungsi menjelaskan subjek 'the flock of birds'. Karena burung-burung tersebut 'dikejutkan' (pasif), kita harus menggunakan Past Participle (V3).",
+    "syllabus_tag": "Participles"
+  },
+  {
+    "id": "Q63",
+    "type": "structure",
+    "question_text": "A prolific inventor, ________ more than 1,000 patents during his lifetime.",
+    "options": [
+      {"label": "A", "text": "Thomas Edison holding"},
+      {"label": "B", "text": "Thomas Edison held"},
+      {"label": "C", "text": "holding Thomas Edison"},
+      {"label": "D", "text": "that Thomas Edison held"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kalimat ini diawali dengan appositive (A prolific inventor). Setelah tanda koma, kita membutuhkan subjek utama dan kata kerja utama. 'Thomas Edison held' memenuhi syarat tersebut.",
+    "syllabus_tag": "Appositives"
+  },
+  {
+    "id": "Q64",
+    "type": "structure",
+    "question_text": "________ it was raining heavily, the football match continued as scheduled.",
+    "options": [
+      {"label": "A", "text": "Although"},
+      {"label": "B", "text": "Despite"},
+      {"label": "C", "text": "However"},
+      {"label": "D", "text": "In spite of"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kalimat ini terdiri dari dua klausa utuh (Subjek+Verb). Kita membutuhkan konektor yang bisa diikuti oleh klausa. 'Although' diikuti klausa, sedangkan 'Despite' dan 'In spite of' hanya diikuti frasa kata benda.",
+    "syllabus_tag": "Connectors / Clauses"
+  },
+  {
+    "id": "Q65",
+    "type": "structure",
+    "question_text": "Not until the early 20th century ________ the right to vote in the United States.",
+    "options": [
+      {"label": "A", "text": "women won"},
+      {"label": "B", "text": "did women win"},
+      {"label": "C", "text": "when women won"},
+      {"label": "D", "text": "women did win"}
+    ],
+    "answer_key": "B",
+    "explanation": "Jika kalimat diawali dengan frasa negatif seperti 'Not until', klausa utamanya harus mengalami inversi (Auxiliary + Subject + Verb).",
+    "syllabus_tag": "Inverted Subjects and Verbs"
+  },
+  {
+    "id": "Q66",
+    "type": "structure",
+    "question_text": "The artifacts ________ in the national museum belong to a private collector.",
+    "options": [
+      {"label": "A", "text": "exhibiting"},
+      {"label": "B", "text": "which exhibiting"},
+      {"label": "C", "text": "exhibited"},
+      {"label": "D", "text": "they are exhibited"}
+    ],
+    "answer_key": "C",
+    "explanation": "Ini adalah Reduced Adjective Clause dari 'which are exhibited'. Karena bermakna pasif (dipamerkan), kita langsung menggunakan Past Participle (V3).",
+    "syllabus_tag": "Reduced Clauses"
+  },
+  {
+    "id": "Q67",
+    "type": "structure",
+    "question_text": "________ the instructions carefully, he would not have made such a costly mistake.",
+    "options": [
+      {"label": "A", "text": "Had he read"},
+      {"label": "B", "text": "He had read"},
+      {"label": "C", "text": "If he reads"},
+      {"label": "D", "text": "Read he had"}
+    ],
+    "answer_key": "A",
+    "explanation": "Ini adalah pengandaian tipe 3 (Conditional Type 3) di mana kata 'If' dihilangkan. Jika 'If' dihilangkan, susunan subjek dan auxiliary harus diinversi menjadi 'Had he read'.",
+    "syllabus_tag": "Conditional Sentences (Inverted)"
+  },
+  {
+    "id": "Q68",
+    "type": "structure",
+    "question_text": "The scientists are investigating ________ the strange phenomenon in the atmosphere.",
+    "options": [
+      {"label": "A", "text": "what caused"},
+      {"label": "B", "text": "what did it cause"},
+      {"label": "C", "text": "caused what"},
+      {"label": "D", "text": "what did cause"}
+    ],
+    "answer_key": "A",
+    "explanation": "Ini adalah Noun Clause yang berfungsi sebagai objek. Susunannya tidak boleh diinversi seperti kalimat tanya. Karena 'what' berfungsi sebagai subjek klausa, polanya langsung (What + Verb).",
+    "syllabus_tag": "Noun Clauses"
+  },
+  {
+    "id": "Q69",
+    "type": "written_expression",
+    "question_text": "The [A] applicant must be [B] hardworking, [C] creative, and [D] have intelligence.",
+    "options": [
+      {"label": "A", "text": "applicant"},
+      {"label": "B", "text": "hardworking"},
+      {"label": "C", "text": "creative"},
+      {"label": "D", "text": "have intelligence"}
+    ],
+    "answer_key": "D",
+    "explanation": "Tiga elemen yang dihubungkan oleh 'and' harus paralel. Karena elemen pertama dan kedua adalah kata sifat (hardworking, creative), elemen ketiga juga harus kata sifat. Seharusnya 'intelligent'.",
+    "syllabus_tag": "Parallel Structure"
+  },
+  {
+    "id": "Q70",
+    "type": "written_expression",
+    "question_text": "The [A] equipment in the new laboratory [B] are [C] state-of-the-art and highly [D] expensive.",
+    "options": [
+      {"label": "A", "text": "equipment"},
+      {"label": "B", "text": "are"},
+      {"label": "C", "text": "state-of-the-art"},
+      {"label": "D", "text": "expensive"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata 'equipment' adalah kata benda yang tidak dapat dihitung (uncountable noun), sehingga selalu dianggap tunggal. Kata kerja yang mendampinginya harus 'is', bukan 'are'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q71",
+    "type": "written_expression",
+    "question_text": "She played the piano [A] beautifully [B] and [C] singed [D] a classic song.",
+    "options": [
+      {"label": "A", "text": "beautifully"},
+      {"label": "B", "text": "and"},
+      {"label": "C", "text": "singed"},
+      {"label": "D", "text": "classic"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kata kerja 'sing' adalah irregular verb (kata kerja tidak beraturan). Bentuk lampaunya (Past Tense) bukanlah 'singed', melainkan 'sang'.",
+    "syllabus_tag": "Irregular Verbs"
+  },
+  {
+    "id": "Q72",
+    "type": "written_expression",
+    "question_text": "The [A] committee finally reached [B] their [C] decision after hours of [D] debate.",
+    "options": [
+      {"label": "A", "text": "committee"},
+      {"label": "B", "text": "reached"},
+      {"label": "C", "text": "their"},
+      {"label": "D", "text": "debate"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kata 'committee' bertindak sebagai satu kesatuan tunggal (singular collective noun). Maka kata ganti kepemilikannya harus tunggal. Seharusnya 'its', bukan 'their'.",
+    "syllabus_tag": "Pronouns"
+  },
+  {
+    "id": "Q73",
+    "type": "written_expression",
+    "question_text": "The [A] newly constructed bridge is [B] extreme [C] vulnerable to high [D] winds.",
+    "options": [
+      {"label": "A", "text": "newly"},
+      {"label": "B", "text": "extreme"},
+      {"label": "C", "text": "vulnerable"},
+      {"label": "D", "text": "winds"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata yang memodifikasi kata sifat (vulnerable) harus berupa kata keterangan (Adverb). 'Extreme' adalah Adjective. Seharusnya 'extremely'.",
+    "syllabus_tag": "Word Forms (Adjective vs Adverb)"
+  },
+  {
+    "id": "Q74",
+    "type": "written_expression",
+    "question_text": "My [A] sister has been [B] married [C] with a doctor [D] for ten years.",
+    "options": [
+      {"label": "A", "text": "sister"},
+      {"label": "B", "text": "married"},
+      {"label": "C", "text": "with"},
+      {"label": "D", "text": "for"}
+    ],
+    "answer_key": "C",
+    "explanation": "Pasangan preposisi baku (collocation) untuk kata 'married' adalah 'to'. Penggunaan 'married with' salah secara gramatikal. Seharusnya 'married to'.",
+    "syllabus_tag": "Prepositions"
+  },
+  {
+    "id": "Q75",
+    "type": "written_expression",
+    "question_text": "The [A] modern innovations in technology [B] have advanced [C] forward at an unprecedented [D] rate.",
+    "options": [
+      {"label": "A", "text": "modern"},
+      {"label": "B", "text": "have advanced"},
+      {"label": "C", "text": "forward"},
+      {"label": "D", "text": "unprecedented"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kata 'advanced' sudah memiliki makna bergerak atau maju ke depan. Menambahkan kata 'forward' setelahnya menciptakan pemborosan kata (redundancy).",
+    "syllabus_tag": "Redundancy"
+  },
+  {
+    "id": "Q76",
+    "type": "written_expression",
+    "question_text": "It is [A] an universal [B] truth that water [C] freezes at zero degrees [D] Celsius.",
+    "options": [
+      {"label": "A", "text": "an"},
+      {"label": "B", "text": "truth"},
+      {"label": "C", "text": "freezes"},
+      {"label": "D", "text": "degrees"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kata 'universal' diawali dengan bunyi konsonan 'y' (yu-ni-ver-sal). Meskipun huruf pertamanya adalah vokal 'u', artikel yang tepat adalah 'a', bukan 'an'.",
+    "syllabus_tag": "Articles"
+  },
+  {
+    "id": "Q77",
+    "type": "written_expression",
+    "question_text": "Of the [A] two brothers, John is [B] the tallest [C], but his younger brother is [D] smarter.",
+    "options": [
+      {"label": "A", "text": "two brothers"},
+      {"label": "B", "text": "the tallest"},
+      {"label": "C", "text": "but"},
+      {"label": "D", "text": "smarter"}
+    ],
+    "answer_key": "B",
+    "explanation": "Ketika hanya membandingkan DUA subjek, kita harus menggunakan bentuk Comparative (lebih), bukan Superlative (paling). Seharusnya 'the taller'.",
+    "syllabus_tag": "Comparatives & Superlatives"
+  },
+  {
+    "id": "Q78",
+    "type": "written_expression",
+    "question_text": "The [A] principal [B] did a brief announcement [C] over the [D] intercom.",
+    "options": [
+      {"label": "A", "text": "principal"},
+      {"label": "B", "text": "did"},
+      {"label": "C", "text": "over"},
+      {"label": "D", "text": "intercom"}
+    ],
+    "answer_key": "B",
+    "explanation": "Dalam bahasa Inggris, kata kerja yang berpasangan dengan 'announcement' adalah 'make', bukan 'do'. Seharusnya 'made a brief announcement'.",
+    "syllabus_tag": "Word Choice (Make vs Do)"
+  },
+  {
+    "id": "Q79",
+    "type": "written_expression",
+    "question_text": "Many [A] natural [B] disasters [C] occurs [D] in this region due to climate change.",
+    "options": [
+      {"label": "A", "text": "Many"},
+      {"label": "B", "text": "natural"},
+      {"label": "C", "text": "disasters"},
+      {"label": "D", "text": "occurs"}
+    ],
+    "answer_key": "D",
+    "explanation": "Subjek kalimat adalah 'Many natural disasters' yang berbentuk jamak. Oleh karena itu, kata kerjanya tidak boleh menggunakan akhiran -s. Seharusnya 'occur'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q80",
+    "type": "written_expression",
+    "question_text": "The [A] manager [B] insisted on [C] to see the documents [D] immediately.",
+    "options": [
+      {"label": "A", "text": "manager"},
+      {"label": "B", "text": "insisted on"},
+      {"label": "C", "text": "to see"},
+      {"label": "D", "text": "immediately"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kata depan (preposition) seperti 'on' selalu diikuti oleh Gerund (V-ing), bukan Infinitive (to + verb). Seharusnya 'seeing'.",
+    "syllabus_tag": "Gerunds & Infinitives"
   }
 ]

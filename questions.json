@@ -1118,5 +1118,285 @@
     "answer_key": "C",
     "explanation": "Kata depan (preposition) seperti 'on' selalu diikuti oleh Gerund (V-ing), bukan Infinitive (to + verb). Seharusnya 'seeing'.",
     "syllabus_tag": "Gerunds & Infinitives"
+  },
+  {
+    "id": "Q81",
+    "type": "structure",
+    "question_text": "Never before ________ such a rapid advancement in artificial intelligence.",
+    "options": [
+      {"label": "A", "text": "we have seen"},
+      {"label": "B", "text": "have we seen"},
+      {"label": "C", "text": "we saw"},
+      {"label": "D", "text": "saw we"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kalimat yang diawali dengan frasa bermakna negatif seperti 'Never before' harus mengalami hukum inversi, di mana kata kerja bantu mendahului subjek (Auxiliary + Subject). Bentuk yang tepat adalah 'have we seen'.",
+    "syllabus_tag": "Inverted Subjects and Verbs"
+  },
+  {
+    "id": "Q82",
+    "type": "structure",
+    "question_text": "Albany, the capital of New York State, ________ located on the banks of the Hudson River.",
+    "options": [
+      {"label": "A", "text": "is"},
+      {"label": "B", "text": "it is"},
+      {"label": "C", "text": "being"},
+      {"label": "D", "text": "which is"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kata 'Albany' adalah subjek tunggal, dan 'the capital of New York State' hanyalah appositive (keterangan tambahan) yang diapit dua koma. Kalimat ini kekurangan kata kerja utama. 'is' adalah kata kerja (to be) yang tepat.",
+    "syllabus_tag": "Appositives"
+  },
+  {
+    "id": "Q83",
+    "type": "structure",
+    "question_text": "________ with the right software, the computer can process complex data in seconds.",
+    "options": [
+      {"label": "A", "text": "Programming"},
+      {"label": "B", "text": "Programmed"},
+      {"label": "C", "text": "To program"},
+      {"label": "D", "text": "Programs"}
+    ],
+    "answer_key": "B",
+    "explanation": "Frasa ini adalah bentuk penyederhanaan klausa (Reduced Clause) dari 'When it is programmed'. Karena bermakna pasif (diprogram), kita menggunakan Past Participle (V3), yaitu 'Programmed'.",
+    "syllabus_tag": "Reduced Clauses"
+  },
+  {
+    "id": "Q84",
+    "type": "structure",
+    "question_text": "The collection of rare books ________ carefully preserved in the national library.",
+    "options": [
+      {"label": "A", "text": "is"},
+      {"label": "B", "text": "are"},
+      {"label": "C", "text": "to be"},
+      {"label": "D", "text": "being"}
+    ],
+    "answer_key": "A",
+    "explanation": "Subjek sebenarnya dari kalimat ini adalah 'The collection' (tunggal). Frasa 'of rare books' hanyalah preposisi pengecoh. Karena subjeknya tunggal, kata kerjanya harus 'is'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q85",
+    "type": "structure",
+    "question_text": "The scientists are still trying to determine ________.",
+    "options": [
+      {"label": "A", "text": "how did the universe begin"},
+      {"label": "B", "text": "how the universe began"},
+      {"label": "C", "text": "the universe began how"},
+      {"label": "D", "text": "did the universe begin how"}
+    ],
+    "answer_key": "B",
+    "explanation": "Ini adalah Noun Clause yang berfungsi sebagai objek penderita dari kata 'determine'. Noun Clause tidak boleh disusun terbalik seperti kalimat tanya (tidak boleh ada 'did'). Susunannya harus lurus: (Question Word + Subject + Verb).",
+    "syllabus_tag": "Noun Clauses"
+  },
+  {
+    "id": "Q86",
+    "type": "structure",
+    "question_text": "The climate in Southern California is much milder than ________ in New England.",
+    "options": [
+      {"label": "A", "text": "that"},
+      {"label": "B", "text": "those"},
+      {"label": "C", "text": "it"},
+      {"label": "D", "text": "which"}
+    ],
+    "answer_key": "A",
+    "explanation": "Dalam struktur perbandingan, untuk menghindari pengulangan kata benda tunggal ('the climate'), kita harus menggunakan kata ganti 'that'. Jika kata bendanya jamak, kita menggunakan 'those'.",
+    "syllabus_tag": "Comparatives & Superlatives"
+  },
+  {
+    "id": "Q87",
+    "type": "structure",
+    "question_text": "________ you need further assistance, please do not hesitate to contact our customer support.",
+    "options": [
+      {"label": "A", "text": "If"},
+      {"label": "B", "text": "Should"},
+      {"label": "C", "text": "Unless"},
+      {"label": "D", "text": "Provided"}
+    ],
+    "answer_key": "B",
+    "explanation": "Ini adalah pola inversi kondisional (Conditional Sentence). Kalimat asalnya adalah 'If you should need...'. Jika kata 'If' dihilangkan, maka 'Should' dipindah ke depan.",
+    "syllabus_tag": "Conditional Sentences (Inverted)"
+  },
+  {
+    "id": "Q88",
+    "type": "structure",
+    "question_text": "The flight was delayed ________ severe thunderstorms in the area.",
+    "options": [
+      {"label": "A", "text": "because"},
+      {"label": "B", "text": "due to"},
+      {"label": "C", "text": "since"},
+      {"label": "D", "text": "as"}
+    ],
+    "answer_key": "B",
+    "explanation": "Frasa 'severe thunderstorms' adalah Noun Phrase (frasa benda), bukan klausa penuh. Oleh karena itu, kita membutuhkan preposisi seperti 'due to'. 'Because', 'since', dan 'as' harus diikuti oleh subjek dan kata kerja.",
+    "syllabus_tag": "Connectors / Clauses"
+  },
+  {
+    "id": "Q89",
+    "type": "written_expression",
+    "question_text": "The [A] success of the project depends [B] heavy on the [C] commitment of all [D] team members.",
+    "options": [
+      {"label": "A", "text": "success"},
+      {"label": "B", "text": "heavy"},
+      {"label": "C", "text": "commitment"},
+      {"label": "D", "text": "team members"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata yang menjelaskan sebuah kata kerja (depends) harus berbentuk kata keterangan (Adverb). 'Heavy' adalah Adjective. Seharusnya menggunakan 'heavily'.",
+    "syllabus_tag": "Word Forms (Adjective vs Adverb)"
+  },
+  {
+    "id": "Q90",
+    "type": "written_expression",
+    "question_text": "To stay [A] healthy, you should exercise [B] regularly, [C] eat a balanced diet, and [D] drinking plenty of water.",
+    "options": [
+      {"label": "A", "text": "healthy"},
+      {"label": "B", "text": "regularly"},
+      {"label": "C", "text": "eat"},
+      {"label": "D", "text": "drinking"}
+    ],
+    "answer_key": "D",
+    "explanation": "Tiga tindakan setelah kata bantu 'should' harus berbentuk setara (paralel). Karena yang pertama 'exercise' (Verb 1) dan yang kedua 'eat' (Verb 1), maka elemen ketiga tidak boleh berakhiran -ing. Seharusnya 'drink'.",
+    "syllabus_tag": "Parallel Structure"
+  },
+  {
+    "id": "Q91",
+    "type": "written_expression",
+    "question_text": "The two [A] companies have decided [B] to cooperate [C] together to develop [D] a new software.",
+    "options": [
+      {"label": "A", "text": "companies"},
+      {"label": "B", "text": "to cooperate"},
+      {"label": "C", "text": "together"},
+      {"label": "D", "text": "a new"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kata 'cooperate' sudah mengandung arti 'bekerja sama/bersama-sama'. Penggunaan kata 'together' di sebelahnya menyebabkan pemborosan kata (redundancy) dan harus dihapus.",
+    "syllabus_tag": "Redundancy"
+  },
+  {
+    "id": "Q92",
+    "type": "written_expression",
+    "question_text": "The professor provided [A] a lot of [B] useful [C] informations for the [D] upcoming exam.",
+    "options": [
+      {"label": "A", "text": "a lot of"},
+      {"label": "B", "text": "useful"},
+      {"label": "C", "text": "informations"},
+      {"label": "D", "text": "upcoming"}
+    ],
+    "answer_key": "C",
+    "explanation": "Dalam bahasa Inggris, 'information' adalah kata benda yang tidak dapat dihitung (uncountable noun). Oleh karena itu, kata ini tidak pernah diberi akhiran jamak '-s'. Seharusnya 'information'.",
+    "syllabus_tag": "Nouns (Countable/Uncountable)"
+  },
+  {
+    "id": "Q93",
+    "type": "written_expression",
+    "question_text": "The new [A] regulations [B] will enforce [C] strictly by the [D] local authorities.",
+    "options": [
+      {"label": "A", "text": "regulations"},
+      {"label": "B", "text": "will enforce"},
+      {"label": "C", "text": "strictly"},
+      {"label": "D", "text": "local authorities"}
+    ],
+    "answer_key": "B",
+    "explanation": "Regulasi tidak 'menegakkan', melainkan 'ditegakkan'. Kalimat ini bermakna pasif, sehingga pola kata kerjanya harus diubah menjadi Passive Voice. Seharusnya 'will be enforced'.",
+    "syllabus_tag": "Passive Voice"
+  },
+  {
+    "id": "Q94",
+    "type": "written_expression",
+    "question_text": "The dog [A] wagged [B] it's tail when [C] its owner returned [D] home.",
+    "options": [
+      {"label": "A", "text": "wagged"},
+      {"label": "B", "text": "it's"},
+      {"label": "C", "text": "its"},
+      {"label": "D", "text": "home"}
+    ],
+    "answer_key": "B",
+    "explanation": "Untuk menunjukkan kepemilikan benda/hewan tunggal, kata ganti yang benar adalah 'its' (tanpa tanda kutip/apostrof). 'It\\'s' adalah singkatan dari 'It is' atau 'It has'.",
+    "syllabus_tag": "Pronouns"
+  },
+  {
+    "id": "Q95",
+    "type": "written_expression",
+    "question_text": "Neither the manager [A] nor the employees [B] was aware [C] of the sudden changes in [D] company policy.",
+    "options": [
+      {"label": "A", "text": "nor"},
+      {"label": "B", "text": "was"},
+      {"label": "C", "text": "of"},
+      {"label": "D", "text": "company policy"}
+    ],
+    "answer_key": "B",
+    "explanation": "Dalam struktur 'Neither ... nor ...', bentuk kata kerja mengikuti subjek yang terletak paling dekat dengannya. Karena subjek terdekat adalah 'employees' (jamak), kata kerjanya harus jamak, yaitu 'were', bukan 'was'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q96",
+    "type": "written_expression",
+    "question_text": "She [A] did a [B] great effort to [C] complete the assignment before [D] the deadline.",
+    "options": [
+      {"label": "A", "text": "did"},
+      {"label": "B", "text": "great effort"},
+      {"label": "C", "text": "complete"},
+      {"label": "D", "text": "the deadline"}
+    ],
+    "answer_key": "A",
+    "explanation": "Dalam kolokasi bahasa Inggris, kata yang dipasangkan dengan 'effort' adalah 'make', bukan 'do'. Karena ini bentuk lampau, seharusnya menggunakan 'made'.",
+    "syllabus_tag": "Word Choice (Make vs Do)"
+  },
+  {
+    "id": "Q97",
+    "type": "written_expression",
+    "question_text": "The team is [A] highly capable [B] to win the championship if they [C] continue to play [D] well.",
+    "options": [
+      {"label": "A", "text": "highly"},
+      {"label": "B", "text": "to win"},
+      {"label": "C", "text": "continue"},
+      {"label": "D", "text": "well"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata sifat 'capable' memiliki preposisi tetap (collocation) yaitu 'of', dan selalu diikuti oleh bentuk Gerund (V-ing). Seharusnya bukan 'to win', melainkan 'of winning'.",
+    "syllabus_tag": "Prepositions"
+  },
+  {
+    "id": "Q98",
+    "type": "written_expression",
+    "question_text": "I could [A] not barely hear [B] the speaker [C] because of the noise [D] in the hall.",
+    "options": [
+      {"label": "A", "text": "not barely"},
+      {"label": "B", "text": "the speaker"},
+      {"label": "C", "text": "because of"},
+      {"label": "D", "text": "in the"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kata 'barely' sudah memiliki arti negatif ('hampir tidak'). Menambahkan kata 'not' bersamanya akan menciptakan kalimat 'Double Negative' yang dilarang dalam grammar baku. Cukup gunakan 'could barely hear'.",
+    "syllabus_tag": "Double Negative"
+  },
+  {
+    "id": "Q99",
+    "type": "written_expression",
+    "question_text": "We [A] appreciate you [B] taking the time [C] to review our proposal and [D] provide feedback.",
+    "options": [
+      {"label": "A", "text": "appreciate"},
+      {"label": "B", "text": "you"},
+      {"label": "C", "text": "to review"},
+      {"label": "D", "text": "provide"}
+    ],
+    "answer_key": "B",
+    "explanation": "Dalam grammar formal TOEFL, kata kerja yang diikuti oleh objek pelaku + Gerund mengharuskan objek pelaku berbentuk posesif (Possessive Adjective). Seharusnya menggunakan 'your', bukan 'you'. (We appreciate your taking...)",
+    "syllabus_tag": "Gerunds & Infinitives"
+  },
+  {
+    "id": "Q100",
+    "type": "written_expression",
+    "question_text": "The [A] architect drew a detailed [B] blueprint for the [C] construct of the [D] new library.",
+    "options": [
+      {"label": "A", "text": "architect"},
+      {"label": "B", "text": "blueprint"},
+      {"label": "C", "text": "construct"},
+      {"label": "D", "text": "new library"}
+    ],
+    "answer_key": "C",
+    "explanation": "Di belakang artikel 'the', Anda memerlukan kata benda (Noun). Kata 'construct' adalah kata kerja (Verb). Bentuk kata benda yang tepat untuk pembangunan adalah 'construction'.",
+    "syllabus_tag": "Word Forms"
   }
 ]

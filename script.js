@@ -1,32 +1,74 @@
-let questions = [];
+let allQuestions = [];
+let currentQuestions = [];
 let currentQuestionIndex = 0;
 let userAnswers = [];
+let timerInterval;
+let timeRemaining = 0;
+let currentMode = '';
 
-// 1. Mengambil data soal dari questions.json
+// Skala Penukaran Markah TOEFL ITP Section 2 (0-40 betul -> 31-68 markah)
+const itpScale = [
+    31, 31, 32, 33, 35, 36, 37, 38, 39, 40, // 0-9
+    41, 42, 43, 44, 45, 46, 47, 48, 49, 50, // 10-19
+    51, 52, 53, 54, 55, 56, 57, 58, 59, 60, // 20-29
+    61, 62, 63, 64, 65, 66, 67, 68, 68, 68, 68 // 30-40
+];
+
+// 1. Muat turun bank soalan
 fetch('questions.json')
     .then(response => response.json())
-    .then(data => { questions = data; })
-    .catch(err => console.error("Gagal memuat soal:", err));
+    .then(data => { allQuestions = data; })
+    .catch(err => console.error("Ralat memuat turun soalan:", err));
 
-// 2. Fungsi Mulai Kuis
+// 2. Mulakan Kuiz
 function startQuiz(mode) {
-    if(questions.length === 0) {
-        alert("Soal sedang dimuat, coba beberapa detik lagi.");
+    if(allQuestions.length === 0) {
+        alert("Soalan sedang dimuat turun, sila tunggu sebentar.");
         return;
     }
+    
+    currentMode = mode;
+    if(mode === 'mini') {
+        // Ambil 15 soalan secara rawak (shuffle)
+        currentQuestions = [...allQuestions].sort(() => 0.5 - Math.random()).slice(0, 15);
+        timeRemaining = 15 * 60; // 15 Minit
+    } else {
+        // Ambil kesemua soalan untuk simulasi penuh
+        currentQuestions = [...allQuestions]; 
+        timeRemaining = 25 * 60; // 25 Minit
+    }
+
     currentQuestionIndex = 0;
-    userAnswers = [];
+    userAnswers = new Array(currentQuestions.length).fill(null);
+    
     document.getElementById('dashboard').classList.remove('active');
     document.getElementById('quiz-area').classList.add('active');
+    
+    startTimer();
     showQuestion();
 }
 
-// 3. Menampilkan Soal ke Layar
+// 3. Pemasa (Timer)
+function startTimer() {
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+        if(timeRemaining <= 0) {
+            clearInterval(timerInterval);
+            finishQuiz();
+        } else {
+            timeRemaining--;
+            let m = Math.floor(timeRemaining / 60).toString().padStart(2, '0');
+            let s = (timeRemaining % 60).toString().padStart(2, '0');
+            document.getElementById('timer').innerText = `Masa: ${m}:${s}`;
+        }
+    }, 1000);
+}
+
+// 4. Paparkan Soalan
 function showQuestion() {
-    let q = questions[currentQuestionIndex];
-    document.getElementById('question-number').innerText = `Soal ${currentQuestionIndex + 1} dari ${questions.length}`;
+    let q = currentQuestions[currentQuestionIndex];
+    document.getElementById('question-number').innerText = `Soalan ${currentQuestionIndex + 1} daripada ${currentQuestions.length}`;
     
-    // Highlight [A], [B], [C], [D] untuk soal Part B
     let formattedQuestion = q.question_text.replace(/\[([A-D])\]/g, '<strong style="color:#3b82f6;">[$1]</strong>');
     document.getElementById('question-text').innerHTML = formattedQuestion;
     
@@ -38,21 +80,19 @@ function showQuestion() {
     
     document.getElementById('options-container').innerHTML = optionsHtml;
     
-    // Atur tombol navigasi
     document.getElementById('prev-btn').classList.toggle('hidden', currentQuestionIndex === 0);
-    document.getElementById('next-btn').classList.toggle('hidden', currentQuestionIndex === questions.length - 1);
-    document.getElementById('submit-btn').classList.toggle('hidden', currentQuestionIndex !== questions.length - 1);
+    document.getElementById('next-btn').classList.toggle('hidden', currentQuestionIndex === currentQuestions.length - 1);
+    document.getElementById('submit-btn').classList.toggle('hidden', currentQuestionIndex !== currentQuestions.length - 1);
 }
 
-// 4. Memilih Jawaban
+// 5. Pilihan Jawapan & Navigasi
 function selectOption(label) {
     userAnswers[currentQuestionIndex] = label;
-    showQuestion(); // Render ulang agar tombol yang dipilih tersorot
+    showQuestion();
 }
 
-// 5. Navigasi Next / Prev
 function nextQuestion() {
-    if(currentQuestionIndex < questions.length - 1) {
+    if(currentQuestionIndex < currentQuestions.length - 1) {
         currentQuestionIndex++;
         showQuestion();
     }
@@ -65,32 +105,45 @@ function prevQuestion() {
     }
 }
 
-// 6. Menyelesaikan Kuis & Menampilkan Evaluasi
+// 6. Penamatan & Pengiraan Markah
 function finishQuiz() {
+    clearInterval(timerInterval);
     document.getElementById('quiz-area').classList.remove('active');
     document.getElementById('result-area').classList.add('active');
     
     let correctCount = 0;
     let reviewHtml = '';
     
-    questions.forEach((q, index) => {
+    currentQuestions.forEach((q, index) => {
         let userAnswer = userAnswers[index];
         if(userAnswer === q.answer_key) {
             correctCount++;
         } else {
-            // Tampilan untuk soal yang salah
             reviewHtml += `
             <div style="background:#fef2f2; border-left: 4px solid #ef4444; padding: 15px; margin-bottom: 20px; border-radius: 4px;">
-                <p style="font-weight:600; margin-top:0;">Soal ${index + 1}:</p>
-                <p>${q.question_text}</p>
-                <p style="color: #b91c1c;"><b>Jawaban Anda:</b> ${userAnswer || 'Tidak dijawab'} &nbsp;|&nbsp; <b>Kunci Benar:</b> ${q.answer_key}</p>
-                <p><b>Pembahasan:</b> ${q.explanation}</p>
-                <button class="btn-primary" style="margin-top:10px; font-size:14px; padding: 8px 15px;" onclick="alert('Fitur Simulasi Soal Sejenis untuk materi [${q.syllabus_tag}] sedang dikembangkan. Nanti akan muncul di layar ini tanpa pindah halaman!')">Latih Materi Ini (${q.syllabus_tag})</button>
+                <p style="font-weight:600; margin-top:0;">Soalan ${index + 1}:</p>
+                <p>${q.question_text.replace(/\[([A-D])\]/g, '<strong>[$1]</strong>')}</p>
+                <p style="color: #b91c1c;"><b>Jawapan Anda:</b> ${userAnswer || 'Kosong'} &nbsp;|&nbsp; <b>Kunci:</b> ${q.answer_key}</p>
+                <p><b>Penerangan:</b> ${q.explanation}</p>
+                <button class="btn-primary" style="margin-top:10px; font-size:14px; padding: 8px 15px;" onclick="alert('Latihan khusus untuk topik: ${q.syllabus_tag} akan dipaparkan di sini.')">Latih Topik Ini (${q.syllabus_tag})</button>
             </div>`;
         }
     });
     
-    let finalScore = Math.round((correctCount / questions.length) * 100);
-    document.getElementById('final-score').innerText = `${finalScore}%`;
-    document.getElementById('review-container').innerHTML = reviewHtml || "<p style='color:#16a34a; font-weight:bold;'>Sempurna! Anda tidak memiliki kesalahan.</p>";
+    let scoreDisplay = document.getElementById('final-score');
+    let scoreNote = document.getElementById('score-note');
+
+    if(currentMode === 'mini') {
+        let finalPercentage = Math.round((correctCount / currentQuestions.length) * 100);
+        scoreDisplay.innerText = `${finalPercentage}%`;
+        scoreNote.innerText = `Anda menjawab ${correctCount} dengan betul daripada ${currentQuestions.length} soalan.`;
+    } else {
+        // Anggarkan markah kepada skala 40 jika soalan kurang daripada 40
+        let scaledCorrect = Math.round((correctCount / currentQuestions.length) * 40);
+        let itpScore = itpScale[scaledCorrect] || 31;
+        scoreDisplay.innerText = itpScore;
+        scoreNote.innerText = `Skor Rasmi ITP (Julat 31-68). Betul: ${correctCount}/${currentQuestions.length}`;
+    }
+    
+    document.getElementById('review-container').innerHTML = reviewHtml || "<p style='color:#16a34a; font-weight:bold;'>Tahniah! Anda menjawab semua soalan dengan betul.</p>";
 }

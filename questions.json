@@ -10,7 +10,7 @@
       {"label": "D", "text": "To have"}
     ],
     "answer_key": "B",
-    "explanation": "Kalimat sudah memiliki subjek dan verb utama (the new CEO plans). Frasa di awal yang dipisahkan koma memerlukan Present Participle (V-ing) sebagai penjelas aktif.",
+    "explanation": "Kalimat sudah memiliki subjek dan verb utama (the new CEO plans). Frasa di awal yang dipisahkan koma membutuhkan Present Participle (V-ing) sebagai penjelas aktif.",
     "syllabus_tag": "Participles"
   },
   {
@@ -24,7 +24,7 @@
       {"label": "D", "text": "she believes"}
     ],
     "answer_key": "C",
-    "explanation": "Subjek kalimat adalah Dr. Smith. Kalimat ini kekurangan kata kerja utama tunggal (singular verb), maka 'believes' adalah jawapan yang tepat.",
+    "explanation": "Subjek kalimat adalah Dr. Smith. Kalimat ini kekurangan kata kerja utama tunggal (singular verb), maka 'believes' adalah jawaban yang tepat.",
     "syllabus_tag": "Subject-Verb Agreement"
   },
   {
@@ -38,7 +38,7 @@
       {"label": "D", "text": "scientists do see"}
     ],
     "answer_key": "A",
-    "explanation": "Jika ayat bermula dengan kata keterangan negatif (seperti rarely, never), susunan subjek dan kata kerja mesti disongsangkan (Inversion: Auxiliary + Subject + Verb).",
+    "explanation": "Jika kalimat diawali dengan kata keterangan negatif (seperti rarely, never), susunan subjek dan kata kerjanya harus diinversi (Auxiliary + Subject + Verb).",
     "syllabus_tag": "Inverted Subjects and Verbs"
   },
   {
@@ -52,7 +52,7 @@
       {"label": "D", "text": "it was completed"}
     ],
     "answer_key": "C",
-    "explanation": "Ini adalah bentuk Reduced Adjective Clause bagi 'which was completed'. Kerana jambatan itu dibina (pasif), kita menggunakan Past Participle (V3).",
+    "explanation": "Ini adalah bentuk Reduced Adjective Clause dari 'which was completed'. Karena jembatan tersebut 'diselesaikan' (pasif), maka kita menggunakan Past Participle (V3).",
     "syllabus_tag": "Reduced Clauses"
   },
   {
@@ -66,7 +66,7 @@
       {"label": "D", "text": "Due to"}
     ],
     "answer_key": "A",
-    "explanation": "Ayat ini mempunyai dua klausa lengkap. Kita memerlukan kata hubung (connector). 'Because' menghubungkan klausa alasan yang lengkap.",
+    "explanation": "Kalimat ini terdiri dari dua klausa utuh. Kita membutuhkan connector (penghubung) yang tepat. 'Because' menghubungkan klausa alasan.",
     "syllabus_tag": "Connectors / Clauses"
   },
   {
@@ -80,7 +80,7 @@
       {"label": "D", "text": "finishes"}
     ],
     "answer_key": "C",
-    "explanation": "Penggunaan frasa masa 'By the time' yang merujuk kepada masa depan memerlukan tense Future Perfect (will have + V3).",
+    "explanation": "Penggunaan penanda waktu 'By the time' di masa depan selalu diikuti oleh tenses Future Perfect (will have + V3).",
     "syllabus_tag": "Tenses"
   },
   {
@@ -94,7 +94,7 @@
       {"label": "D", "text": "she does"}
     ],
     "answer_key": "B",
-    "explanation": "Ayat yang bermula dengan kata negatif 'Not only' memerlukan hukum inversi (Verb mendahului Subjek).",
+    "explanation": "Kalimat yang diawali dengan frasa negatif 'Not only' mengharuskan klausa setelahnya diinversi (Verb mendahului Subject).",
     "syllabus_tag": "Inverted Subjects and Verbs"
   },
   {
@@ -108,7 +108,7 @@
       {"label": "D", "text": "visiting"}
     ],
     "answer_key": "C",
-    "explanation": "Frasa 'look forward to' mestilah sentiasa diikuti dengan kata nama atau Gerund (V-ing).",
+    "explanation": "Frasa 'look forward to' harus selalu diikuti oleh kata benda atau Gerund (V-ing), bukan verb dasar.",
     "syllabus_tag": "Gerunds & Infinitives"
   },
   {
@@ -122,7 +122,7 @@
       {"label": "D", "text": "Rumoring"}
     ],
     "answer_key": "A",
-    "explanation": "Ayat ini memerlukan klausa utama yang mengandungi subjek 'It' dan kata kerja pasif 'is rumored' sebelum klausa nama 'that...'.",
+    "explanation": "Kalimat ini membutuhkan klausa utama yang berisi subjek semu 'It' dan kata kerja pasif 'is rumored' sebelum Noun Clause 'that...'.",
     "syllabus_tag": "Noun Clauses"
   },
   {
@@ -136,7 +136,7 @@
       {"label": "D", "text": "fluent"}
     ],
     "answer_key": "A",
-    "explanation": "Ini adalah struktur Double Comparative ('The more..., the more...'). Kita perlukan 'the more fluent'.",
+    "explanation": "Ini adalah struktur Double Comparative ('The more..., the more...'). Kita membutuhkan 'the more fluent'.",
     "syllabus_tag": "Comparatives & Superlatives"
   },
   {
@@ -150,7 +150,7 @@
       {"label": "D", "text": "new"}
     ],
     "answer_key": "C",
-    "explanation": "Elemen yang dihubungkan dengan 'and' mesti selari (paralel). Memandangkan kata kerja sebelumnya ialah Verb asas (arrive, attend), elemen ketiga juga mesti Verb asas (work), bukannya working.",
+    "explanation": "Elemen yang dihubungkan dengan 'and' harus setara (paralel). Karena kata kerja sebelumnya adalah Verb 1 (arrive, attend), maka elemen ketiga juga harus Verb 1 (work).",
     "syllabus_tag": "Parallel Structure"
   },
   {
@@ -164,7 +164,7 @@
       {"label": "D", "text": "on"}
     ],
     "answer_key": "A",
-    "explanation": "Kedudukan selepas artikel 'The' dan sebelum kata sendi 'of' memerlukan kata nama (Noun). 'Healthy' adalah kata sifat, sepatutnya 'Health'.",
+    "explanation": "Posisi setelah artikel 'The' dan sebelum preposisi 'of' mengharuskan bentuk kata benda (Noun). 'Healthy' adalah kata sifat, seharusnya 'Health'.",
     "syllabus_tag": "Word Forms"
   },
   {
@@ -178,7 +178,7 @@
       {"label": "D", "text": "found"}
     ],
     "answer_key": "C",
-    "explanation": "Bentuk perbandingan bagi kata sifat satu suku kata (old) adalah dengan menambah akhiran -er (older). Menambah 'more' (more older) merupakan ralat grammar (double comparative).",
+    "explanation": "Tingkat perbandingan untuk kata sifat satu suku kata (old) adalah dengan menambahkan akhiran -er (older). Menggunakan 'more' bersamaan dengan -er adalah double comparative yang salah.",
     "syllabus_tag": "Comparatives & Superlatives"
   },
   {
@@ -192,7 +192,7 @@
       {"label": "D", "text": "Friday"}
     ],
     "answer_key": "C",
-    "explanation": "Subjek utama ialah 'Each' yang sentiasa dianggap tunggal (singular). Kata ganti nama tidak boleh berbentuk jamak (their), sepatutnya 'his or her'.",
+    "explanation": "Subjek kalimat ini adalah 'Each' yang selalu dianggap tunggal (singular). Maka, kata ganti kepemilikannya tidak boleh jamak (their), melainkan 'his or her'.",
     "syllabus_tag": "Pronouns"
   },
   {
@@ -206,7 +206,7 @@
       {"label": "D", "text": "early"}
     ],
     "answer_key": "A",
-    "explanation": "Manuskrip itu 'ditemui', bukannya 'menemui'. Oleh itu, klausa tersebut harus menggunakan bentuk pasif (was discovered).",
+    "explanation": "Manuskrip itu 'ditemukan', bukan 'menemukan'. Oleh karena itu, klausa tersebut harus berbentuk pasif (was discovered).",
     "syllabus_tag": "Passive Voice"
   },
   {
@@ -220,7 +220,7 @@
       {"label": "D", "text": "any"}
     ],
     "answer_key": "A",
-    "explanation": "Perkataan 'Despite' tidak pernah diikuti oleh 'of'. Jika ingin menggunakan 'of', gunakan frasa 'In spite of'.",
+    "explanation": "Kata 'Despite' tidak pernah menggunakan 'of' di belakangnya. Jika ingin menggunakan 'of', pakailah frasa 'In spite of'.",
     "syllabus_tag": "Prepositions"
   },
   {
@@ -234,7 +234,7 @@
       {"label": "D", "text": "Roman Empire"}
     ],
     "answer_key": "B",
-    "explanation": "Kata 'artifacts' adalah benda yang boleh dikira (countable). 'Amount of' hanya digunakan untuk yang tidak boleh dikira. Sepatutnya 'number of'.",
+    "explanation": "Kata 'artifacts' adalah kata benda yang dapat dihitung (countable noun). Frasa 'amount of' hanya digunakan untuk uncountable noun. Seharusnya 'number of'.",
     "syllabus_tag": "Nouns (Countable/Uncountable)"
   },
   {
@@ -248,7 +248,7 @@
       {"label": "D", "text": "international journal"}
     ],
     "answer_key": "B",
-    "explanation": "Walaupun 'unique' bermula dengan huruf vokal, cara sebutannya bermula dengan konsonan 'y'. Oleh itu, artikel yang tepat adalah 'a', bukan 'an'.",
+    "explanation": "Meski 'unique' berawalan huruf vokal 'u', pelafalannya diawali bunyi konsonan 'y'. Artikel yang tepat adalah 'a', bukan 'an'.",
     "syllabus_tag": "Articles"
   },
   {
@@ -262,7 +262,7 @@
       {"label": "D", "text": "has shifted"}
     ],
     "answer_key": "B",
-    "explanation": "Subjek ayat adalah 'results' (jamak). Oleh itu, kata kerja utamanya juga mesti berbentuk jamak tanpa tambahan -s/-es. Sepatutnya 'indicate'.",
+    "explanation": "Subjek kalimat adalah 'results' (jamak). Maka kata kerja utamanya juga harus jamak (tanpa -s). Seharusnya 'indicate'.",
     "syllabus_tag": "Subject-Verb Agreement"
   },
   {
@@ -276,7 +276,7 @@
       {"label": "D", "text": "reviewing"}
     ],
     "answer_key": "B",
-    "explanation": "Ini adalah pengulangan yang tidak perlu (redundancy). 'Return' sudah bermakna pergi semula (go back), jadi kata 'back' harus dipadam.",
+    "explanation": "Terjadi redundancy (pemborosan kata). 'Return' sudah berarti 'go back', sehingga kata 'back' harus dihapus.",
     "syllabus_tag": "Redundancy"
   }
 ]

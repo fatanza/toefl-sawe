@@ -14,7 +14,7 @@ const itpScale = [
     61, 62, 63, 64, 65, 66, 67, 68, 68, 68, 68 // 30-40
 ];
 
-fetch('questions.json?v=' + new Date().getTime()) // Anti-cache agar soal terbaru selalu terbaca
+fetch('questions.json?v=' + new Date().getTime())
     .then(response => response.json())
     .then(data => { allQuestions = data; })
     .catch(err => console.error("Gagal memuat soal:", err));
@@ -26,27 +26,22 @@ function startQuiz(mode) {
     }
     
     currentMode = mode;
-    
-    // Pisahkan soal berdasarkan tipenya untuk diacak
     let structureBank = allQuestions.filter(q => q.type === 'structure');
     let writtenBank = allQuestions.filter(q => q.type === 'written_expression');
     
-    // Acak urutan di masing-masing bank soal
     structureBank.sort(() => 0.5 - Math.random());
     writtenBank.sort(() => 0.5 - Math.random());
 
     if(mode === 'mini') {
-        // PAKET MINI: Ambil 5 Structure + 10 Written Expression (Total 15 Soal)
         let miniStructure = structureBank.slice(0, 5);
         let miniWritten = writtenBank.slice(0, 10);
         currentQuestions = [...miniStructure, ...miniWritten];
-        timeRemaining = 15 * 60; // 15 Menit
+        timeRemaining = 15 * 60; 
     } else {
-        // PAKET FULL SAWE: Ambil 15 Structure + 25 Written Expression (Total 40 Soal Resmi)
         let fullStructure = structureBank.slice(0, 15);
         let fullWritten = writtenBank.slice(0, 25);
         currentQuestions = [...fullStructure, ...fullWritten];
-        timeRemaining = 25 * 60; // 25 Menit (Waktu resmi section 2)
+        timeRemaining = 25 * 60; 
     }
 
     currentQuestionIndex = 0;
@@ -78,7 +73,6 @@ function showQuestion() {
     let q = currentQuestions[currentQuestionIndex];
     document.getElementById('question-number').innerText = `Soal ${currentQuestionIndex + 1} dari ${currentQuestions.length}`;
     
-    // Highlight opsi A, B, C, D untuk tipe Written Expression
     let formattedQuestion = q.question_text.replace(/\[([A-D])\]/g, '<strong style="color:#3b82f6;">[$1]</strong>');
     document.getElementById('question-text').innerHTML = formattedQuestion;
     
@@ -124,18 +118,42 @@ function finishQuiz() {
     
     currentQuestions.forEach((q, index) => {
         let userAnswer = userAnswers[index];
-        if(userAnswer === q.answer_key) {
+        let isCorrect = (userAnswer === q.answer_key);
+        if(isCorrect) {
             correctCount++;
-        } else {
-            reviewHtml += `
-            <div style="background:#fef2f2; border-left: 4px solid #ef4444; padding: 15px; margin-bottom: 20px; border-radius: 4px;">
-                <p style="font-weight:600; margin-top:0;">Soal ${index + 1}:</p>
-                <p>${q.question_text.replace(/\[([A-D])\]/g, '<strong>[$1]</strong>')}</p>
-                <p style="color: #b91c1c;"><b>Jawaban Anda:</b> ${userAnswer || 'Kosong'} &nbsp;|&nbsp; <b>Kunci:</b> ${q.answer_key}</p>
-                <p><b>Pembahasan:</b> ${q.explanation}</p>
-                <button class="btn-primary" style="margin-top:10px; font-size:14px; padding: 8px 15px;" onclick="alert('Soal serupa untuk materi ${q.syllabus_tag} akan muncul di layar ini secara otomatis nantinya.')">Latih Topik Ini (${q.syllabus_tag})</button>
-            </div>`;
         }
+        
+        // Merangkai teks pilihan ganda (A, B, C, D) agar muncul lengkap di pembahasan
+        let optionsListHtml = '<div style="margin: 10px 0; font-size: 14px;">';
+        q.options.forEach(opt => {
+            let style = "";
+            if(opt.label === q.answer_key) style = "font-weight: bold; color: #16a34a;"; // Hijau untuk kunci
+            if(opt.label === userAnswer && !isCorrect) style = "font-weight: bold; color: #ef4444; text-decoration: line-through;"; // Merah dicoret jika salah pilih
+            
+            optionsListHtml += `<div style="${style}"><b>${opt.label}.</b> ${opt.text}</div>`;
+        });
+        optionsListHtml += '</div>';
+
+        // Desain kotak evaluasi (hijau jika benar, merah lembut jika salah)
+        let borderColor = isCorrect ? '#22c55e' : '#ef4444';
+        let bgColor = isCorrect ? '#f0fdf4' : '#fef2f2';
+        let statusText = isCorrect ? '<span style="color: #16a34a; font-weight: bold;">✔ Benar</span>' : '<span style="color: #ef4444; font-weight: bold;">✖ Salah</span>';
+
+        reviewHtml += `
+        <div style="background:${bgColor}; border-left: 4px solid ${borderColor}; padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="font-weight:600; margin-top:0; margin-bottom: 5px;">Soal ${index + 1}</p>
+                ${statusText}
+            </div>
+            <p style="margin-bottom: 10px;">${q.question_text.replace(/\[([A-D])\]/g, '<strong>[$1]</strong>')}</p>
+            
+            ${optionsListHtml}
+            
+            <p style="font-size: 14px; margin: 8px 0;"><b>Jawaban Anda:</b> ${userAnswer || 'Kosong'} &nbsp;|&nbsp; <b>Kunci Jawaban:</b> ${q.answer_key}</p>
+            <p style="font-size: 14px; margin-bottom: 10px;"><b>Pembahasan:</b> ${q.explanation}</p>
+            
+            ${!isCorrect ? `<button class="btn-primary" style="margin-top:5px; font-size:13px; padding: 6px 12px;" onclick="alert('Latihan khusus untuk topik: ${q.syllabus_tag} akan segera diaktifkan.')">Latih Topik Ini (${q.syllabus_tag})</button>` : ''}
+        </div>`;
     });
     
     let scoreDisplay = document.getElementById('final-score');
@@ -146,11 +164,10 @@ function finishQuiz() {
         scoreDisplay.innerText = `${finalPercentage}%`;
         scoreNote.innerText = `Anda menjawab benar ${correctCount} dari ${currentQuestions.length} soal.`;
     } else {
-        // Skoring resmi dari tabel konversi
         let itpScore = itpScale[correctCount] || 31;
         scoreDisplay.innerText = itpScore;
         scoreNote.innerText = `Skor Konversi ITP (Skala 31-68). Total Benar: ${correctCount}/${currentQuestions.length}`;
     }
     
-    document.getElementById('review-container').innerHTML = reviewHtml || "<p style='color:#16a34a; font-weight:bold;'>Luar Biasa! Anda menjawab semua soal dengan benar.</p>";
+    document.getElementById('review-container').innerHTML = reviewHtml;
 }

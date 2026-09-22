@@ -14,7 +14,7 @@ const itpScale = [
     61, 62, 63, 64, 65, 66, 67, 68, 68, 68, 68 // 30-40
 ];
 
-fetch('questions.json')
+fetch('questions.json?v=' + new Date().getTime()) // Anti-cache agar soal terbaru selalu terbaca
     .then(response => response.json())
     .then(data => { allQuestions = data; })
     .catch(err => console.error("Gagal memuat soal:", err));
@@ -26,14 +26,27 @@ function startQuiz(mode) {
     }
     
     currentMode = mode;
+    
+    // Pisahkan soal berdasarkan tipenya untuk diacak
+    let structureBank = allQuestions.filter(q => q.type === 'structure');
+    let writtenBank = allQuestions.filter(q => q.type === 'written_expression');
+    
+    // Acak urutan di masing-masing bank soal
+    structureBank.sort(() => 0.5 - Math.random());
+    writtenBank.sort(() => 0.5 - Math.random());
+
     if(mode === 'mini') {
-        // Ambil 15 soal secara acak
-        currentQuestions = [...allQuestions].sort(() => 0.5 - Math.random()).slice(0, 15);
+        // PAKET MINI: Ambil 5 Structure + 10 Written Expression (Total 15 Soal)
+        let miniStructure = structureBank.slice(0, 5);
+        let miniWritten = writtenBank.slice(0, 10);
+        currentQuestions = [...miniStructure, ...miniWritten];
         timeRemaining = 15 * 60; // 15 Menit
     } else {
-        // Pake semua soal untuk simulasi
-        currentQuestions = [...allQuestions]; 
-        timeRemaining = 25 * 60; // 25 Menit
+        // PAKET FULL SAWE: Ambil 15 Structure + 25 Written Expression (Total 40 Soal Resmi)
+        let fullStructure = structureBank.slice(0, 15);
+        let fullWritten = writtenBank.slice(0, 25);
+        currentQuestions = [...fullStructure, ...fullWritten];
+        timeRemaining = 25 * 60; // 25 Menit (Waktu resmi section 2)
     }
 
     currentQuestionIndex = 0;
@@ -133,9 +146,8 @@ function finishQuiz() {
         scoreDisplay.innerText = `${finalPercentage}%`;
         scoreNote.innerText = `Anda menjawab benar ${correctCount} dari ${currentQuestions.length} soal.`;
     } else {
-        // Proyeksi jika soal kurang dari 40
-        let scaledCorrect = Math.round((correctCount / currentQuestions.length) * 40);
-        let itpScore = itpScale[scaledCorrect] || 31;
+        // Skoring resmi dari tabel konversi
+        let itpScore = itpScale[correctCount] || 31;
         scoreDisplay.innerText = itpScore;
         scoreNote.innerText = `Skor Konversi ITP (Skala 31-68). Total Benar: ${correctCount}/${currentQuestions.length}`;
     }

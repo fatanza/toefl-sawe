@@ -558,5 +558,285 @@
     "answer_key": "B",
     "explanation": "Kata yang menjelaskan kata kerja (speaks) harus berbentuk Adverb (kata keterangan). 'Good' adalah Adjective. Adverb yang benar adalah 'well'. Seharusnya 'so well'.",
     "syllabus_tag": "Word Forms (Adjective vs Adverb)"
+  },
+  {
+    "id": "Q41",
+    "type": "structure",
+    "question_text": "________ known for its high strength-to-weight ratio, titanium is widely used in the aerospace industry.",
+    "options": [
+      {"label": "A", "text": "It is"},
+      {"label": "B", "text": "That is"},
+      {"label": "C", "text": "Being"},
+      {"label": "D", "text": "Since it"}
+    ],
+    "answer_key": "C",
+    "explanation": "Frasa di awal kalimat yang dipisahkan koma berfungsi sebagai penjelas subjek (titanium). Kita membutuhkan Participle. Kata 'Being' adalah bentuk Present Participle yang tepat untuk menggantikan klausa 'Because it is'.",
+    "syllabus_tag": "Participles"
+  },
+  {
+    "id": "Q42",
+    "type": "structure",
+    "question_text": "The number of students who ________ to study abroad has increased steadily over the past decade.",
+    "options": [
+      {"label": "A", "text": "chooses"},
+      {"label": "B", "text": "choose"},
+      {"label": "C", "text": "choosing"},
+      {"label": "D", "text": "is choosing"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata ganti relatif 'who' merujuk pada kata benda sebelumnya, yaitu 'students' (jamak). Oleh karena itu, kata kerja di dalam klausa relatif tersebut juga harus jamak (tanpa -s), yaitu 'choose'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q43",
+    "type": "structure",
+    "question_text": "Only after the sun had set ________ to drop significantly.",
+    "options": [
+      {"label": "A", "text": "the temperature began"},
+      {"label": "B", "text": "began the temperature"},
+      {"label": "C", "text": "did the temperature begin"},
+      {"label": "D", "text": "the temperature began to"}
+    ],
+    "answer_key": "C",
+    "explanation": "Jika sebuah kalimat diawali dengan frasa negatif atau restriktif seperti 'Only after', klausa utamanya harus mengalami inversi (Auxiliary + Subject + Verb). Pilihan C memiliki pola inversi yang benar.",
+    "syllabus_tag": "Inverted Subjects and Verbs"
+  },
+  {
+    "id": "Q44",
+    "type": "structure",
+    "question_text": "________ the project was completed on time, it exceeded the allocated budget.",
+    "options": [
+      {"label": "A", "text": "In spite of"},
+      {"label": "B", "text": "Even though"},
+      {"label": "C", "text": "Because"},
+      {"label": "D", "text": "However"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kalimat ini terdiri dari dua klausa utuh (Subjek+Verb). Kita membutuhkan konektor yang menyatakan pertentangan. 'Even though' diikuti oleh klausa, sedangkan 'In spite of' hanya boleh diikuti oleh frasa kata benda.",
+    "syllabus_tag": "Connectors / Clauses"
+  },
+  {
+    "id": "Q45",
+    "type": "structure",
+    "question_text": "The proposals ________ by the committee will be reviewed at the next general meeting.",
+    "options": [
+      {"label": "A", "text": "submitting"},
+      {"label": "B", "text": "were submitted"},
+      {"label": "C", "text": "submitted"},
+      {"label": "D", "text": "they submitted"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kalimat ini sudah memiliki kata kerja utama 'will be reviewed'. Kata yang dibutuhkan adalah penjelas untuk 'proposals'. Karena proposal 'diserahkan' (pasif), kita menggunakan Past Participle (V3), yaitu 'submitted'.",
+    "syllabus_tag": "Reduced Clauses"
+  },
+  {
+    "id": "Q46",
+    "type": "structure",
+    "question_text": "The committee has not yet decided ________ the new marketing strategy.",
+    "options": [
+      {"label": "A", "text": "who will lead"},
+      {"label": "B", "text": "will lead who"},
+      {"label": "C", "text": "who lead"},
+      {"label": "D", "text": "who he will lead"}
+    ],
+    "answer_key": "A",
+    "explanation": "Ini adalah Noun Clause yang berfungsi sebagai objek dari kata 'decided'. Susunan Noun Clause tidak boleh seperti kalimat tanya; susunannya harus (Question Word + Subject + Verb). Karena 'who' juga bertindak sebagai subjek, polanya menjadi (Who + Verb).",
+    "syllabus_tag": "Noun Clauses"
+  },
+  {
+    "id": "Q47",
+    "type": "structure",
+    "question_text": "________ earlier, we could have avoided the heavy traffic.",
+    "options": [
+      {"label": "A", "text": "If we leave"},
+      {"label": "B", "text": "Had we left"},
+      {"label": "C", "text": "We had left"},
+      {"label": "D", "text": "Unless we left"}
+    ],
+    "answer_key": "B",
+    "explanation": "Ini adalah bentuk pengandaian tipe 3 (Conditional Type 3) tanpa kata 'If' (omission of if). Jika 'if' dihilangkan, susunan subjek dan 'had' harus diinversi menjadi 'Had we left'.",
+    "syllabus_tag": "Conditional Sentences (Inverted)"
+  },
+  {
+    "id": "Q48",
+    "type": "structure",
+    "question_text": "Riding a bicycle is generally more environmentally friendly than ________.",
+    "options": [
+      {"label": "A", "text": "to drive a car"},
+      {"label": "B", "text": "driving a car"},
+      {"label": "C", "text": "when driving a car"},
+      {"label": "D", "text": "you drive a car"}
+    ],
+    "answer_key": "B",
+    "explanation": "Struktur kalimat perbandingan harus paralel. Karena hal yang dibandingkan berbentuk Gerund (Riding a bicycle), maka pembandingnya juga harus berbentuk Gerund (driving a car).",
+    "syllabus_tag": "Parallel Structure"
+  },
+  {
+    "id": "Q49",
+    "type": "written_expression",
+    "question_text": "The [A] responsibilities of the job include [B] answering the phone, [C] welcoming guests, and [D] to organize files.",
+    "options": [
+      {"label": "A", "text": "responsibilities"},
+      {"label": "B", "text": "answering"},
+      {"label": "C", "text": "welcoming"},
+      {"label": "D", "text": "to organize"}
+    ],
+    "answer_key": "D",
+    "explanation": "Tiga elemen yang dihubungkan dengan 'and' harus setara (paralel). Karena elemen pertama dan kedua berupa V-ing (answering, welcoming), maka elemen ketiga juga harus V-ing. Seharusnya 'organizing'.",
+    "syllabus_tag": "Parallel Structure"
+  },
+  {
+    "id": "Q50",
+    "type": "written_expression",
+    "question_text": "The singer performed [A] so [B] beautiful that the [C] entire audience gave her a [D] standing ovation.",
+    "options": [
+      {"label": "A", "text": "so"},
+      {"label": "B", "text": "beautiful"},
+      {"label": "C", "text": "entire"},
+      {"label": "D", "text": "standing"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata yang digunakan untuk memodifikasi atau menjelaskan kata kerja (performed) haruslah berupa kata keterangan (Adverb). 'Beautiful' adalah Adjective. Seharusnya 'beautifully'.",
+    "syllabus_tag": "Word Forms (Adjective vs Adverb)"
+  },
+  {
+    "id": "Q51",
+    "type": "written_expression",
+    "question_text": "The company [A] decided to upgrade [B] their computer systems [C] to improve [D] overall efficiency.",
+    "options": [
+      {"label": "A", "text": "decided"},
+      {"label": "B", "text": "their"},
+      {"label": "C", "text": "to improve"},
+      {"label": "D", "text": "overall"}
+    ],
+    "answer_key": "B",
+    "explanation": "Subjek kalimat adalah 'The company', yang merupakan kata benda tunggal (singular entity). Maka kata ganti kepemilikannya juga harus tunggal, yaitu 'its', bukan 'their'.",
+    "syllabus_tag": "Pronouns"
+  },
+  {
+    "id": "Q52",
+    "type": "written_expression",
+    "question_text": "The professor assigned [A] a large [B] amount of [C] homeworks for the [D] weekend.",
+    "options": [
+      {"label": "A", "text": "a large"},
+      {"label": "B", "text": "amount of"},
+      {"label": "C", "text": "homeworks"},
+      {"label": "D", "text": "weekend"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kata 'homework' adalah kata benda yang tidak dapat dihitung (uncountable noun). Oleh karena itu, tidak boleh ditambahkan akhiran jamak '-s'. Seharusnya tetap 'homework'.",
+    "syllabus_tag": "Nouns (Countable/Uncountable)"
+  },
+  {
+    "id": "Q53",
+    "type": "written_expression",
+    "question_text": "The [A] CEO, along with [B] the vice presidents, [C] are attending the [D] annual conference in Paris.",
+    "options": [
+      {"label": "A", "text": "CEO"},
+      {"label": "B", "text": "the vice presidents"},
+      {"label": "C", "text": "are"},
+      {"label": "D", "text": "annual"}
+    ],
+    "answer_key": "C",
+    "explanation": "Subjek utama kalimat adalah 'The CEO' (tunggal). Frasa pengganggu 'along with the vice presidents' tidak memengaruhi subjek. Kata kerjanya harus mengkuti subjek utama, yaitu 'is', bukan 'are'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q54",
+    "type": "written_expression",
+    "question_text": "The [A] reason the factory [B] closed down was [C] because it could [D] no longer compete.",
+    "options": [
+      {"label": "A", "text": "reason"},
+      {"label": "B", "text": "closed down"},
+      {"label": "C", "text": "because"},
+      {"label": "D", "text": "no longer"}
+    ],
+    "answer_key": "C",
+    "explanation": "Dalam tata bahasa Inggris baku, frasa 'The reason... was' tidak boleh diikuti oleh 'because', karena hal tersebut memicu redudansi makna. Seharusnya menggunakan 'that'.",
+    "syllabus_tag": "Redundancy"
+  },
+  {
+    "id": "Q55",
+    "type": "written_expression",
+    "question_text": "It is [A] highly recommended that you wear [B] a [C] uniforms when [D] working in the laboratory.",
+    "options": [
+      {"label": "A", "text": "highly"},
+      {"label": "B", "text": "a"},
+      {"label": "C", "text": "uniforms"},
+      {"label": "D", "text": "working"}
+    ],
+    "answer_key": "C",
+    "explanation": "Artikel 'a' digunakan untuk kata benda tunggal (singular). Oleh karena itu, kata bendanya tidak boleh memiliki bentuk jamak. Seharusnya 'uniform', tanpa huruf 's'.",
+    "syllabus_tag": "Articles / Singular Nouns"
+  },
+  {
+    "id": "Q56",
+    "type": "written_expression",
+    "question_text": "The new [A] employee was [B] not accustomed [C] with the fast-paced [D] work environment.",
+    "options": [
+      {"label": "A", "text": "employee"},
+      {"label": "B", "text": "not"},
+      {"label": "C", "text": "with"},
+      {"label": "D", "text": "work"}
+    ],
+    "answer_key": "C",
+    "explanation": "Pasangan preposisi (collocation) yang tepat untuk kata sifat 'accustomed' (terbiasa) adalah 'to'. Penggunaan 'with' di sini salah secara grammar. Seharusnya 'accustomed to'.",
+    "syllabus_tag": "Prepositions"
+  },
+  {
+    "id": "Q57",
+    "type": "written_expression",
+    "question_text": "Of the two [A] proposals, the [B] first one is definitely [C] the most [D] practical.",
+    "options": [
+      {"label": "A", "text": "proposals"},
+      {"label": "B", "text": "first one"},
+      {"label": "C", "text": "the most"},
+      {"label": "D", "text": "practical"}
+    ],
+    "answer_key": "C",
+    "explanation": "Jika hanya membandingkan DUA hal, kita harus menggunakan bentuk Comparative (lebih), bukan Superlative (paling). Seharusnya menggunakan 'the more', bukan 'the most'.",
+    "syllabus_tag": "Comparatives & Superlatives"
+  },
+  {
+    "id": "Q58",
+    "type": "written_expression",
+    "question_text": "Please [A] ensure that you [B] make your [C] homework before you [D] go out to play.",
+    "options": [
+      {"label": "A", "text": "ensure"},
+      {"label": "B", "text": "make"},
+      {"label": "C", "text": "homework"},
+      {"label": "D", "text": "go out"}
+    ],
+    "answer_key": "B",
+    "explanation": "Dalam bahasa Inggris, tugas rutin atau pekerjaan tidak menggunakan kata 'make' (yang bermakna menciptakan sesuatu yang baru), melainkan 'do'. Seharusnya 'do your homework'.",
+    "syllabus_tag": "Word Choice (Make vs Do)"
+  },
+  {
+    "id": "Q59",
+    "type": "written_expression",
+    "question_text": "The [A] detailed report [B] must be [C] finish by the [D] end of the week.",
+    "options": [
+      {"label": "A", "text": "detailed"},
+      {"label": "B", "text": "must be"},
+      {"label": "C", "text": "finish"},
+      {"label": "D", "text": "end"}
+    ],
+    "answer_key": "C",
+    "explanation": "Struktur kalimat pasif yang menggunakan modal (must be) harus diikuti oleh bentuk kata kerja ketiga (Past Participle/V3). Laporan 'diselesaikan', maka seharusnya 'finished'.",
+    "syllabus_tag": "Passive Voice"
+  },
+  {
+    "id": "Q60",
+    "type": "written_expression",
+    "question_text": "The [A] tourists asked the [B] guide where [C] was the nearest [D] train station.",
+    "options": [
+      {"label": "A", "text": "tourists"},
+      {"label": "B", "text": "guide"},
+      {"label": "C", "text": "was the nearest"},
+      {"label": "D", "text": "train station"}
+    ],
+    "answer_key": "C",
+    "explanation": "Ini adalah Noun Clause yang bertindak sebagai objek (Embedded Question). Susunannya tidak boleh diinversi seperti kalimat tanya biasa, melainkan harus (Question Word + Subject + Verb). Seharusnya 'where the nearest train station was'.",
+    "syllabus_tag": "Noun Clauses"
   }
 ]

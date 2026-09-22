@@ -28,9 +28,9 @@ body {
     margin: 20px;
 }
 
-/* Kunci pembaikan isu blank screen */
 .screen { display: none; }
 .screen.active { display: block; }
+.hidden { display: none !important; }
 
 h1, h2, h3 { text-align: center; }
 
@@ -57,7 +57,6 @@ button {
 .btn-secondary:hover { background-color: #1e293b; }
 .btn-nav { background-color: #e2e8f0; color: var(--text-primary); }
 .btn-nav:hover { background-color: #cbd5e1; }
-.hidden { display: none !important; }
 
 .quiz-header {
     display: flex;

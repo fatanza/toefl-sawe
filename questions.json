@@ -278,5 +278,285 @@
     "answer_key": "B",
     "explanation": "Terjadi redundancy (pemborosan kata). 'Return' sudah berarti 'go back', sehingga kata 'back' harus dihapus.",
     "syllabus_tag": "Redundancy"
+  ,
+    {
+    "id": "Q21",
+    "type": "structure",
+    "question_text": "The first Native American to win a gold medal in the Olympics, ________ in the 1912 games in Stockholm.",
+    "options": [
+      {"label": "A", "text": "Jim Thorpe competed"},
+      {"label": "B", "text": "Jim Thorpe competing"},
+      {"label": "C", "text": "that Jim Thorpe competed"},
+      {"label": "D", "text": "was Jim Thorpe competing"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kalimat ini diawali dengan appositive (keterangan tambahan). Kalimat utamanya membutuhkan Subjek dan Kata Kerja (Verb). 'Jim Thorpe competed' menyediakan keduanya.",
+    "syllabus_tag": "Appositives"
+  },
+  {
+    "id": "Q22",
+    "type": "structure",
+    "question_text": "Although ________ in 1900, the building still stands strong against extreme weather.",
+    "options": [
+      {"label": "A", "text": "building"},
+      {"label": "B", "text": "was built"},
+      {"label": "C", "text": "built"},
+      {"label": "D", "text": "it was built"}
+    ],
+    "answer_key": "C",
+    "explanation": "Ini adalah bentuk Reduced Adverb Clause dari 'Although it was built'. Karena subjeknya sama dengan subjek utama (the building) dan bermakna pasif, kita langsung menggunakan Past Participle (V3).",
+    "syllabus_tag": "Reduced Clauses"
+  },
+  {
+    "id": "Q23",
+    "type": "structure",
+    "question_text": "In the center of the room ________ a large wooden table dating back to the 18th century.",
+    "options": [
+      {"label": "A", "text": "is"},
+      {"label": "B", "text": "sits"},
+      {"label": "C", "text": "sitting"},
+      {"label": "D", "text": "does sit"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kalimat yang diawali dengan keterangan tempat (In the center of the room) mengalami inversi. Subjek sebenarnya adalah 'a large wooden table' (tunggal), sehingga kata kerjanya harus 'sits'.",
+    "syllabus_tag": "Inverted Subjects and Verbs"
+  },
+  {
+    "id": "Q24",
+    "type": "structure",
+    "question_text": "________ caused the massive power outage in the city is still unknown to the authorities.",
+    "options": [
+      {"label": "A", "text": "What"},
+      {"label": "B", "text": "That"},
+      {"label": "C", "text": "It"},
+      {"label": "D", "text": "Which"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kalimat ini membutuhkan subjek untuk kata kerja 'is'. Subjek tersebut berupa Noun Clause. 'What' berfungsi sebagai konektor sekaligus subjek di dalam Noun Clause 'What caused the massive power outage'.",
+    "syllabus_tag": "Noun Clauses"
+  },
+  {
+    "id": "Q25",
+    "type": "structure",
+    "question_text": "The manager did not specify ________ to start the new marketing campaign.",
+    "options": [
+      {"label": "A", "text": "when we are"},
+      {"label": "B", "text": "when were we"},
+      {"label": "C", "text": "when to"},
+      {"label": "D", "text": "when we"}
+    ],
+    "answer_key": "C",
+    "explanation": "Ini adalah bentuk penyederhanaan (reduced form) dari Noun Clause menggunakan pola 'Question Word + Infinitive'. Bentuk lengkapnya bisa berupa 'when we should start', yang disederhanakan menjadi 'when to start'.",
+    "syllabus_tag": "Gerunds & Infinitives"
+  },
+  {
+    "id": "Q26",
+    "type": "written_expression",
+    "question_text": "The new operating system is [A] fast, [B] efficiently, and [C] highly [D] reliable.",
+    "options": [
+      {"label": "A", "text": "fast"},
+      {"label": "B", "text": "efficiently"},
+      {"label": "C", "text": "highly"},
+      {"label": "D", "text": "reliable"}
+    ],
+    "answer_key": "B",
+    "explanation": "Struktur paralel mengharuskan elemen yang dihubungkan dengan 'and' berjenis sama. Karena 'fast' dan 'reliable' adalah Adjective (kata sifat), maka 'efficiently' (Adverb) harus diubah menjadi 'efficient' (Adjective).",
+    "syllabus_tag": "Parallel Structure"
+  },
+  {
+    "id": "Q27",
+    "type": "written_expression",
+    "question_text": "The [A] development of new technologies [B] have led to [C] significant [D] improvements in healthcare.",
+    "options": [
+      {"label": "A", "text": "development"},
+      {"label": "B", "text": "have led"},
+      {"label": "C", "text": "significant"},
+      {"label": "D", "text": "improvements"}
+    ],
+    "answer_key": "B",
+    "explanation": "Subjek kalimat adalah 'development' (tunggal), bukan 'technologies'. Oleh karena itu, kata kerjanya harus menggunakan 'has led', bukan 'have led'.",
+    "syllabus_tag": "Subject-Verb Agreement"
+  },
+  {
+    "id": "Q28",
+    "type": "written_expression",
+    "question_text": "The [A] brilliantly [B] sunshine [C] illuminated the [D] entire valley.",
+    "options": [
+      {"label": "A", "text": "brilliantly"},
+      {"label": "B", "text": "sunshine"},
+      {"label": "C", "text": "illuminated"},
+      {"label": "D", "text": "entire"}
+    ],
+    "answer_key": "A",
+    "explanation": "Kata yang menjelaskan kata benda (sunshine) haruslah kata sifat (Adjective). 'Brilliantly' adalah Adverb. Seharusnya menggunakan 'brilliant'.",
+    "syllabus_tag": "Word Forms"
+  },
+  {
+    "id": "Q29",
+    "type": "written_expression",
+    "question_text": "Each [A] of the board members [B] has [C] their own [D] unique perspective on the issue.",
+    "options": [
+      {"label": "A", "text": "Each"},
+      {"label": "B", "text": "has"},
+      {"label": "C", "text": "their"},
+      {"label": "D", "text": "unique"}
+    ],
+    "answer_key": "C",
+    "explanation": "Subjek 'Each' secara gramatikal selalu tunggal. Maka kata ganti kepemilikannya harus tunggal. Seharusnya menggunakan 'his or her', bukan 'their' (jamak).",
+    "syllabus_tag": "Pronouns"
+  },
+  {
+    "id": "Q30",
+    "type": "written_expression",
+    "question_text": "There [A] are a large [B] amount of [C] people waiting [D] outside the building.",
+    "options": [
+      {"label": "A", "text": "are"},
+      {"label": "B", "text": "amount of"},
+      {"label": "C", "text": "people"},
+      {"label": "D", "text": "outside"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata 'people' adalah kata benda jamak yang dapat dihitung (countable noun). Frasa 'amount of' digunakan untuk uncountable noun. Seharusnya menggunakan 'number of'.",
+    "syllabus_tag": "Nouns (Countable/Uncountable)"
+  },
+  {
+    "id": "Q31",
+    "type": "written_expression",
+    "question_text": "The research team is [A] composed [B] from scientists, [C] engineers, and [D] data analysts.",
+    "options": [
+      {"label": "A", "text": "composed"},
+      {"label": "B", "text": "from"},
+      {"label": "C", "text": "engineers"},
+      {"label": "D", "text": "analysts"}
+    ],
+    "answer_key": "B",
+    "explanation": "Pasangan preposisi yang tepat untuk kata 'composed' adalah 'of' (terdiri dari). 'Composed from' adalah bentuk idiom yang salah.",
+    "syllabus_tag": "Prepositions"
+  },
+  {
+    "id": "Q32",
+    "type": "written_expression",
+    "question_text": "Please [A] repeat [B] again the instructions [C] for the [D] final examination.",
+    "options": [
+      {"label": "A", "text": "repeat"},
+      {"label": "B", "text": "again"},
+      {"label": "C", "text": "for the"},
+      {"label": "D", "text": "final"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata 'repeat' sudah bermakna 'mengatakan/melakukan lagi'. Menambahkan kata 'again' setelahnya adalah redundancy (pemborosan kata). Kata 'again' harus dihapus.",
+    "syllabus_tag": "Redundancy"
+  },
+  {
+    "id": "Q33",
+    "type": "written_expression",
+    "question_text": "[A] A hour is [B] not enough time [C] to finish [D] this complex task.",
+    "options": [
+      {"label": "A", "text": "A hour"},
+      {"label": "B", "text": "not enough"},
+      {"label": "C", "text": "to finish"},
+      {"label": "D", "text": "this complex"}
+    ],
+    "answer_key": "A",
+    "explanation": "Meskipun 'hour' diawali huruf konsonan 'h', pelafalannya diawali bunyi vokal 'a' (aw-er). Oleh karena itu, artikel yang tepat adalah 'An hour'.",
+    "syllabus_tag": "Articles"
+  },
+  {
+    "id": "Q34",
+    "type": "written_expression",
+    "question_text": "The new [A] policy [B] will implement [C] by the [D] board of directors tomorrow.",
+    "options": [
+      {"label": "A", "text": "policy"},
+      {"label": "B", "text": "will implement"},
+      {"label": "C", "text": "by the"},
+      {"label": "D", "text": "board"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kebijakan (policy) tidak 'mengimplementasikan', melainkan 'diimplementasikan'. Kalimat ini harus berbentuk pasif (Passive Voice). Seharusnya 'will be implemented'.",
+    "syllabus_tag": "Passive Voice"
+  },
+  {
+    "id": "Q35",
+    "type": "written_expression",
+    "question_text": "This [A] year's exam was [B] much more harder [C] than [D] the one given last year.",
+    "options": [
+      {"label": "A", "text": "year's"},
+      {"label": "B", "text": "much more harder"},
+      {"label": "C", "text": "than"},
+      {"label": "D", "text": "the one"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata 'harder' sudah merupakan bentuk comparative. Menambahkan 'more' di depannya menghasilkan kesalahan grammar (double comparative). Seharusnya cukup 'much harder'.",
+    "syllabus_tag": "Comparatives & Superlatives"
+  },
+  {
+    "id": "Q36",
+    "type": "written_expression",
+    "question_text": "The [A] childs were [B] playing [C] happily in the [D] park.",
+    "options": [
+      {"label": "A", "text": "childs"},
+      {"label": "B", "text": "playing"},
+      {"label": "C", "text": "happily"},
+      {"label": "D", "text": "park"}
+    ],
+    "answer_key": "A",
+    "explanation": "Bentuk jamak dari 'child' bukanlah 'childs' (regular plural), melainkan 'children' (irregular plural).",
+    "syllabus_tag": "Nouns (Irregular Plural)"
+  },
+  {
+    "id": "Q37",
+    "type": "written_expression",
+    "question_text": "She [A] has been [B] worked at the [C] company [D] since 2015.",
+    "options": [
+      {"label": "A", "text": "has been"},
+      {"label": "B", "text": "worked"},
+      {"label": "C", "text": "company"},
+      {"label": "D", "text": "since"}
+    ],
+    "answer_key": "B",
+    "explanation": "Karena kalimat ini bermakna aktif dan menyatakan sesuatu yang berlangsung dari dulu hingga sekarang (Present Perfect Continuous), maka harus menggunakan V-ing. Seharusnya 'working', bukan 'worked'.",
+    "syllabus_tag": "Tenses"
+  },
+  {
+    "id": "Q38",
+    "type": "written_expression",
+    "question_text": "He [A] made a [B] lot of research [C] before writing [D] his thesis.",
+    "options": [
+      {"label": "A", "text": "made"},
+      {"label": "B", "text": "lot of"},
+      {"label": "C", "text": "before writing"},
+      {"label": "D", "text": "his thesis"}
+    ],
+    "answer_key": "A",
+    "explanation": "Dalam bahasa Inggris, pasangan kata kerja (collocation) untuk 'research' adalah 'do', bukan 'make'. Karena dalam bentuk lampau, seharusnya 'did', bukan 'made'.",
+    "syllabus_tag": "Word Choice (Make vs Do)"
+  },
+  {
+    "id": "Q39",
+    "type": "written_expression",
+    "question_text": "The [A] supervisor [B] let the employees [C] to leave [D] early.",
+    "options": [
+      {"label": "A", "text": "supervisor"},
+      {"label": "B", "text": "let"},
+      {"label": "C", "text": "to leave"},
+      {"label": "D", "text": "early"}
+    ],
+    "answer_key": "C",
+    "explanation": "Kata kerja kausatif 'let' harus diikuti oleh Bare Infinitive (kata kerja dasar tanpa 'to'). Seharusnya 'leave', bukan 'to leave'.",
+    "syllabus_tag": "Gerunds & Infinitives (Causative)"
+  },
+  {
+    "id": "Q40",
+    "type": "written_expression",
+    "question_text": "She speaks [A] English [B] so good that [C] everyone thinks she is a [D] native speaker.",
+    "options": [
+      {"label": "A", "text": "English"},
+      {"label": "B", "text": "so good"},
+      {"label": "C", "text": "everyone"},
+      {"label": "D", "text": "native speaker"}
+    ],
+    "answer_key": "B",
+    "explanation": "Kata yang menjelaskan kata kerja (speaks) harus berbentuk Adverb (kata keterangan). 'Good' adalah Adjective. Adverb yang benar adalah 'well'. Seharusnya 'so well'.",
+    "syllabus_tag": "Word Forms (Adjective vs Adverb)"
   }
 ]

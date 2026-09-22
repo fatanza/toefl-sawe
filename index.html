@@ -9,38 +9,38 @@
 </head>
 <body>
     <div class="container">
-        <!-- Halaman Utama (Dashboard) -->
+        <!-- Halaman Awal (Dashboard) -->
         <div id="dashboard" class="screen active">
             <h1>Tryout TOEFL</h1>
-            <p>Bahagian: Structure & Written Expression</p>
+            <p>Bagian: Structure & Written Expression</p>
             <div class="menu">
-                <button onclick="startQuiz('mini')" class="btn-primary">Pakej Mini (15 Soalan)</button>
-                <button onclick="startQuiz('full')" class="btn-secondary">Pakej Simulasi Penuh</button>
+                <button onclick="startQuiz('mini')" class="btn-primary">Paket Mini (15 Soal)</button>
+                <button onclick="startQuiz('full')" class="btn-secondary">Paket Simulasi Penuh</button>
             </div>
         </div>
 
-        <!-- Mod Simulasi Kuiz -->
+        <!-- Mode Simulasi Kuis -->
         <div id="quiz-area" class="screen">
             <div class="quiz-header">
-                <span id="question-number">Soalan 1</span>
-                <span id="timer" style="color: #ef4444;">Masa: 00:00</span>
+                <span id="question-number">Soal 1</span>
+                <span id="timer" style="color: #ef4444;">Waktu: 00:00</span>
             </div>
             
             <div class="question-container">
-                <p id="question-text">Teks soalan akan dipaparkan di sini...</p>
+                <p id="question-text">Teks soal akan muncul di sini...</p>
                 <div id="options-container" class="options"></div>
             </div>
 
             <div class="navigation">
                 <button id="prev-btn" class="btn-nav" onclick="prevQuestion()">Sebelumnya</button>
-                <button id="next-btn" class="btn-nav" onclick="nextQuestion()">Seterusnya</button>
-                <button id="submit-btn" class="btn-primary" onclick="finishQuiz()">Selesai & Semak</button>
+                <button id="next-btn" class="btn-nav" onclick="nextQuestion()">Selanjutnya</button>
+                <button id="submit-btn" class="btn-primary" onclick="finishQuiz()">Selesai & Cek Nilai</button>
             </div>
         </div>
 
-        <!-- Halaman Keputusan & Penilaian -->
+        <!-- Halaman Evaluasi & Hasil -->
         <div id="result-area" class="screen">
-            <h2>Keputusan Tryout</h2>
+            <h2>Hasil Tryout</h2>
             <div class="score-display">
                 <p>Skor Anda:</p>
                 <h1 id="final-score">0</h1>
@@ -49,7 +49,7 @@
             <button onclick="location.reload()" class="btn-secondary">Kembali ke Menu Utama</button>
             
             <div class="review-section">
-                <h3>Penilaian Jawapan Salah:</h3>
+                <h3>Evaluasi Jawaban Salah:</h3>
                 <div id="review-container"></div>
             </div>
         </div>
